@@ -1,0 +1,25 @@
+/*CSS cascading style sheets
+* skin of your elements
+* we use CSS to style and position elements
+* consists of rulesets which have:
+    *selectors
+    *declarations
+    *properties
+    *values*/
+body {
+    background-color: #bebebe;
+    font-family: open-sans;
+}
+    #welcome {
+        color: pink;
+        font-size: 50pt;
+    }
+    .nav-links {
+        color: purple;
+        font-size: 20pt;
+    }
+    #box-model-example {
+        border: 2px solid black;
+        padding: 25px;
+        margin: 25px;
+    }
